@@ -20,10 +20,10 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script>
             var texto = {
-                saludo: ["¡Hola Hola!", "¡Hola Mundo!", "¡Holaaaa!","¡Hola cosmos!"],
+                saludo: ["¡Hola Hola!", "¡Hola :D!", "¡Holaaaa!","¡Aloha!"],
                 nombre: "Mi nombre es Pablo Vergara",
-                motivo: "Tomé y sigo en este curso porque lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non turpis laoreet, tincidunt velit nec, ultricies ipsum. Sed at arcu ac lectus rhoncus <span>molestie…</span>.",
-                etc: "Ya revisé mi primera nota y la verdad es que lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non turpis laoreet, tincidunt velit nec, ultricies ipsum. Sed at arcu ac lectus rhoncus molestie.",
+                motivo: "Tomé este curso y sigo en él porque aún me sorprende lo que se puede lograr con la programación, con tan solo unas pocas líneas de código se consiguen cosas muy interesantes. Además, me gusta la forma en que estamos aprendiendo, de manera práctica, clase a clase y a buen ritmo. Lo que en la primera clase me parecía imposible de leer, cada vez más se vuelve otro lenguaje para mí. <span>Entonces...</span>",
+                etc: "Ya revisé mi primera nota y creo que es una prueba de que estoy entendiendo bien. De hecho, no esperaba tener una nota tan buena, estaba muy nervioso por lo que trabajé muy desordenado. Aun así, creo que la nota demuestra que logré superar ese nerviosismo inicial.",
             };
             var aleatorio = Math.floor(Math.random() * texto.saludo.length);
 
@@ -35,7 +35,7 @@
             function revelador() {
                 $("#alla").toggleClass("escondido");
             }
-            $("span").hover(cualquiera);
+            $("span").click(revelador);
         </script>
     </body>
 </html>
