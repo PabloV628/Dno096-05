@@ -68,12 +68,12 @@ span:hover {
 }
 
 .unos{
-    background: rgba(255,255,255,0,5);
+    background: rgba(255,255,255,0.5);
     padding: 1rem;
     margin: 1rem 0;
 }
 .otros{
-    background: rgba(0,0,0,0,5);
+    background: rgba(0,0,0,0.5);
     padding: 1rem;
     margin: 1rem 0;
 }
